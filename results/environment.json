@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "torch": "2.5.1+cu121",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "split_seed": 2026,
+  "binarization": "fixed threshold >= 0.5",
+  "image_shape": [
+    28,
+    28
+  ]
+}

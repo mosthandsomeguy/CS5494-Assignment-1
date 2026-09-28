@@ -1,0 +1,23 @@
+{
+  "classifier_validation_accuracy": 0.9847999811172485,
+  "classifier_test_accuracy": 0.988099992275238,
+  "sample_count": 2000,
+  "class_counts": [
+    184,
+    172,
+    156,
+    284,
+    123,
+    156,
+    147,
+    201,
+    307,
+    270
+  ],
+  "class_entropy_nats": 2.2579257488250732,
+  "effective_classes": 9.563232034260642,
+  "mean_max_class_probability": 0.8580212593078613,
+  "fraction_confidence_ge_0_9": 0.5820000171661377,
+  "nearest_train_rmse_mean": 0.2048410028219223,
+  "nearest_train_rmse_min": 0.07065703719854355
+}

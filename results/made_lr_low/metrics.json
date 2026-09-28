@@ -1,0 +1,39 @@
+{
+  "name": "made_lr_low",
+  "hidden": [
+    512,
+    512
+  ],
+  "learning_rate": 0.0003,
+  "train_count": 55000,
+  "epochs": 30,
+  "seed": 42,
+  "best_epoch": 30,
+  "validation_nll": 94.11372375488281,
+  "test_nll": 92.4139175415039,
+  "test_nll_se": 0.3012667655944824,
+  "bits_per_pixel": 0.1700575262069506,
+  "training_seconds": 42.32248209998943,
+  "update_seconds": 38.91012499993667,
+  "inference": {
+    "batch_size": 100,
+    "seconds_median": 1.1414598999544978,
+    "seconds_runs": [
+      0.9959587999619544,
+      1.2079703999916092,
+      1.1414598999544978
+    ]
+  },
+  "parameters": {
+    "stored": 1066768,
+    "active": 534544
+  },
+  "progress_epochs": [
+    0,
+    1,
+    10,
+    20,
+    30
+  ],
+  "causal_check_passed": true
+}

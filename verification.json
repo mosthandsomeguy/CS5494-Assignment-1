@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "experiments_checked": [
+    "fvsbn",
+    "gan",
+    "gan_long",
+    "gan_no_smoothing",
+    "made_1layer",
+    "made_2layer",
+    "made_long",
+    "made_lr_low",
+    "made_small_data"
+  ],
+  "checks": [
+    "disjoint split",
+    "complete epoch logs",
+    "finite metrics",
+    "validation checkpoint selection",
+    "saved NLL consistency",
+    "checkpoint loading",
+    "causal gradients",
+    "parameter counts",
+    "generator shape/range",
+    "diagnostic counts",
+    "artifact presence"
+  ]
+}

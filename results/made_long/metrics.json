@@ -1,0 +1,39 @@
+{
+  "name": "made_long",
+  "hidden": [
+    512,
+    512
+  ],
+  "learning_rate": 0.001,
+  "train_count": 55000,
+  "epochs": 120,
+  "seed": 42,
+  "best_epoch": 111,
+  "validation_nll": 83.57069396972656,
+  "test_nll": 82.20342254638672,
+  "test_nll_se": 0.2947785186767578,
+  "bits_per_pixel": 0.15126845669868894,
+  "training_seconds": 64.64829190005548,
+  "update_seconds": 62.441614499199204,
+  "inference": {
+    "batch_size": 100,
+    "seconds_median": 0.3968481000047177,
+    "seconds_runs": [
+      0.40612079994753003,
+      0.3968481000047177,
+      0.37952359998598695
+    ]
+  },
+  "parameters": {
+    "stored": 1066768,
+    "active": 534544
+  },
+  "progress_epochs": [
+    0,
+    1,
+    40,
+    80,
+    120
+  ],
+  "causal_check_passed": true
+}

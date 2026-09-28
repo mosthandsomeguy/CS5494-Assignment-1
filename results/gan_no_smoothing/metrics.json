@@ -1,0 +1,34 @@
+{
+  "name": "gan_no_smoothing",
+  "epochs": 30,
+  "seed": 42,
+  "train_count": 55000,
+  "real_label": 1.0,
+  "training_seconds": 64.74190120003186,
+  "update_seconds": 64.24329590017442,
+  "inference": {
+    "batch_size": 100,
+    "seconds_median": 0.0009189000120386481,
+    "seconds_runs": [
+      0.0009176000021398067,
+      0.0011587999761104584,
+      0.0009189000120386481
+    ]
+  },
+  "generator_parameters": {
+    "stored": 552513,
+    "active": 552513
+  },
+  "discriminator_parameters": {
+    "stored": 36513,
+    "active": 36513
+  },
+  "progress_epochs": [
+    0,
+    1,
+    10,
+    20,
+    30
+  ],
+  "checkpoint_selection": "final epoch (predefined)"
+}

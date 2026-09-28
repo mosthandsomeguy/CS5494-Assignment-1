@@ -1,0 +1,38 @@
+{
+  "name": "made_1layer",
+  "hidden": [
+    512
+  ],
+  "learning_rate": 0.001,
+  "train_count": 55000,
+  "epochs": 30,
+  "seed": 42,
+  "best_epoch": 30,
+  "validation_nll": 80.52503967285156,
+  "test_nll": 79.25870513916016,
+  "test_nll_se": 0.25322872161865234,
+  "bits_per_pixel": 0.14584966945350378,
+  "training_seconds": 34.75662630004808,
+  "update_seconds": 32.13898419996258,
+  "inference": {
+    "batch_size": 100,
+    "seconds_median": 0.5387712999945506,
+    "seconds_runs": [
+      0.5387712999945506,
+      0.5463079999899492,
+      0.5066514000063762
+    ]
+  },
+  "parameters": {
+    "stored": 804112,
+    "active": 402704
+  },
+  "progress_epochs": [
+    0,
+    1,
+    10,
+    20,
+    30
+  ],
+  "causal_check_passed": true
+}
